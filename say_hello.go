@@ -1,7 +1,7 @@
 package go_say_hello
 
-func SayHello() string {
-	return "Hello dari module"
+func SayHello(name string) string {
+	return "Hello dari module " + name
 }
 
 func SayKamu() string {
